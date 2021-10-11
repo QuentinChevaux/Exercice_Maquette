@@ -1,0 +1,300 @@
+body {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+header {
+    background-image: url("header_background_image.jpg");
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 485px;
+}
+
+.div_header {
+    position: absolute;
+    top: 165px;
+    left: 75px;
+    width: 26%;
+    height: auto;
+}
+
+h1 {
+    font-size: 70px;
+    font-family: 'EB Garamond',Georgia,"Times New Roman",serif;
+}
+
+.text_header {
+    margin-bottom: 60px;
+    letter-spacing: 1px;
+}
+
+.learn_more {
+    text-decoration: none;
+    color: #09140c;
+    background-color: #fbb3a3;
+    padding: 15px 40px;
+    border-radius: 25px;
+    margin-left: 10px;
+    font-family: 'Roboto Condensed',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+}
+
+.learn_more:hover {
+    background-color: white;
+}
+
+.div_lien {
+    display: flex;
+    float: left;
+
+    align-items: center;
+}
+
+.div_lien_2 {
+    display: flex;
+    align-items: center;
+}
+
+.play_button {
+    width: 50px;
+    margin-left: 30px;
+    margin-right: 15px;
+}
+
+.yt {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'EB Garamond',Georgia,"Times New Roman",serif;
+}
+
+.div_lien_2:hover {
+    transform: translateX(10px);
+    transition: transform 330ms ease-in-out;
+}
+
+.ul_1 {
+    margin-top: 200px;
+    display: flex;
+    float: left;
+}
+
+.ul_1 li {
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+.ul_1 i {
+    font-size:15px;
+    color: black;
+    background-color: white;
+    padding: 4px;
+    border-radius: 50%;
+}
+
+.div_bandeau {
+    display: flex;
+    justify-content: center;
+    background-color: #fbb3a3;
+    margin-bottom: 100px;
+}
+
+.div_bandeau img {
+    width: 50%;
+}
+
+.div_bandeau div {
+    text-align: center;
+    box-sizing: border-box;
+    padding: 30px 50px;
+    border-right: 1px solid white;
+}
+
+.sans_border {
+    border: hidden !important;
+}
+
+.triple_colone {
+    display: flex;
+    justify-content: center;
+    max-width: 1180px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.colone_2 {
+    text-align: center;
+}
+
+.triple_colone h2 {
+    color: #fbb3a3;
+    font-size: 50px;
+    font-family: 'EB Garamond',Georgia,"Times New Roman",serif;
+}
+
+.triple_colone h3 {
+    font-size: 20px;
+    font-family: 'EB Garamond',Georgia,"Times New Roman",serif;
+}
+
+.triple_colone .droite {
+    text-align: right;
+}
+
+.femme_eau {
+    border-radius: 50%;
+    width: 70%;
+}
+
+section {
+    background-color: #fff8f7;
+    height: auto;
+    padding-bottom: 350px;
+}
+
+.fleur {
+    position: absolute;
+    right: 550px;
+    transform: translateY(-80px);
+    width: 10%;
+}
+
+.titre_section {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.titre_section h2 {
+    color: #09140c;
+    font-size: 50px;
+    font-family: 'EB Garamond',Georgia,"Times New Roman",serif;
+    letter-spacing: 6px;
+    font-weight: 400;
+}
+
+.titre_section p {
+    line-height: 1.8em;
+    color: rgba(9,20,12,0.58);
+    margin-top: -25px;
+    margin-bottom: 60px;
+}
+
+.beauty_service {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.beauty_service div {
+    margin: 0 20px;
+    box-sizing: border-box;
+    background-color: white;
+    padding: 20px 25px;
+}
+
+.beauty_service p {
+    color: rgba(9,20,12,0.58);
+    line-height: 1.8em;
+}
+
+.beauty_service img {
+    width: 24%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.beauty_service a {
+    text-decoration: none;
+    color: #09140c;
+    font-size: 14px;
+    font-family: 'Roboto Condensed',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 600;
+}
+
+.img_text_father {
+    width: 65%;
+    margin: auto;
+    background-image: url("https://149448400.v2.pressablecdn.com/wp-content/uploads/2021/10/beauty-salon-42-1.jpg");
+    background-repeat: no-repeat ;
+    background-size: 100%;
+    transform: translateY(-300px);
+    margin-bottom: -150px;
+}
+
+.fin_section {
+    padding-left: 750px;
+    padding-top: 60px;
+    padding-bottom: 150px;
+}
+
+.fin_section h2 {
+    font-family: 'EB Garamond',Georgia,"Times New Roman",serif;
+    font-size: 50px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.fin_section p {
+    font-family: 'Roboto Condensed',Helvetica,Arial,Lucida,sans-serif;
+    line-height: 1.8em;
+    color: #fff;
+}
+
+.text_weuse {
+    text-align: center;
+    color: #09140c;
+    font-family: 'EB Garamond',Georgia,"Times New Roman",serif;
+    letter-spacing: 6px;
+    font-size: 50px;
+}
+
+.div_product {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+.div_product img {
+   width: 70%;
+}
+
+.footer {
+    background-color: #fbb3a3;
+}
+
+.principale h2 {
+    font-family: 'EB Garamond',Georgia,"Times New Roman",serif;
+    font-size: 50px;
+    color: #09140c;
+    font-weight: 500;
+    padding-top: 90px;
+    padding-left: 350px;
+}
+
+.principale p {
+    display: flex;
+    color: #091409;
+    margin-top: -40px;
+    padding-left: 350px;
+}
+
+ul {
+    padding-left: 350px; 
+    display: flex;
+    float: left;
+}
+
+li {
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+i {
+    font-size:15px;
+    color: black;
+    background-color: white;
+    padding: 4px;
+    border-radius: 50%;
+}
