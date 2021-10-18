@@ -9,13 +9,16 @@ header {
     background-repeat: no-repeat;
     color: #fff;
     padding: 485px;
+    max-width: 100%;
+    background-size: cover;
+    background-position: center;
 }
 
 .div_header {
     position: absolute;
     top: 165px;
     left: 75px;
-    width: 26%;
+    width: 100%;
     height: auto;
 }
 
@@ -38,6 +41,7 @@ h1 {
     margin-left: 10px;
     font-family: 'Roboto Condensed',Helvetica,Arial,Lucida,sans-serif;
     font-weight: 700;
+    box-sizing: border-box;
 }
 
 .learn_more:hover {
@@ -154,8 +158,8 @@ section {
 
 .fleur {
     position: absolute;
-    right: 550px;
-    transform: translateY(-80px);
+    right: 25%;
+    transform: translateY(-50%);
     width: 10%;
 }
 
@@ -214,7 +218,8 @@ section {
 .img_text_father {
     width: 65%;
     margin: auto;
-    background-image: url("https://149448400.v2.pressablecdn.com/wp-content/uploads/2021/10/beauty-salon-42-1.jpg");
+    background- 
+    : url("https://149448400.v2.pressablecdn.com/wp-content/uploads/2021/10/beauty-salon-42-1.jpg");
     background-repeat: no-repeat ;
     background-size: 100%;
     transform: translateY(-300px);
@@ -222,9 +227,9 @@ section {
 }
 
 .fin_section {
-    padding-left: 750px;
-    padding-top: 60px;
-    padding-bottom: 150px;
+    padding-left: 60%;
+    padding-top: 5%;
+    padding-bottom: 15%;
 }
 
 .fin_section h2 {
@@ -264,25 +269,29 @@ section {
     background-color: #fbb3a3;
 }
 
+.div_footer {
+    width: 50%;
+}
+
 .principale h2 {
     font-family: 'EB Garamond',Georgia,"Times New Roman",serif;
     font-size: 50px;
     color: #09140c;
     font-weight: 500;
-    padding-top: 90px;
-    padding-left: 350px;
+    padding-top: 10%;
+    padding-left: 37%;
 }
 
 .principale p {
     display: flex;
     color: #091409;
-    margin-top: -40px;
-    padding-left: 350px;
+    margin-top: -5%;
+    padding-left: 37%;
     line-height: 1.8em;
 }
 
 .ul_2 {
-    padding-left: 350px; 
+    padding-left: 18%;
     display: flex;
     float: left;
 }
@@ -305,14 +314,13 @@ i {
 }
 
 .div_mail_footer {
-    margin-left: 170px;
-    padding-top: 150px;
+    margin-left: 2%;
+    padding-top: 8%;
 }
 
 .div_mail_footer input {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 100px;    
+    padding-top: 3%;
+    padding-bottom: 2%;    
     font-size: 20px;
     margin-bottom: 10px;
     margin-right: 10px;
@@ -338,4 +346,190 @@ i {
 #submit:hover {
     background-color: #fff;
     color: black;
+}
+
+
+@media screen and (max-width: 1399px) {
+    header {
+        padding: 350px 0;
+    }
+    
+    .div_header {
+        top: 30px;
+        left: 0;
+        text-align: center;
+    }
+    
+    .text_header {
+        font-size: 90%;
+    }
+
+    .lien_father {
+        display: flex;
+        justify-content: center;
+        width: 33%;
+        margin: auto;
+    }
+
+    .beauty_service {
+        flex-wrap: wrap;
+        width: 50%;
+        margin: auto;
+    }
+
+    .beauty_service div {
+        margin-bottom: 20px;
+        padding: 5px;
+    }
+
+    .fin_section h2 {
+        font-size: 30px;
+    }
+
+    .fin_section p {
+        font-size: 15px;
+    }
+
+    .principale h2 {
+        font-size: 40px;
+    }  
+
+    .principale p {
+        font-size: 15px;
+    }    
+
+    .div_mail_footer input { 
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    header {
+        padding: 243px 0;
+    }
+
+    .div_header {
+        left: 0;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    .text_header {
+        font-size: 70%;
+    }
+
+    .div_bandeau {
+        margin-bottom: 50px;
+        flex-wrap: wrap;
+    }
+
+    .div_bandeau div {
+        width: 50%;
+        border-right: none;
+        border-bottom: 1px solid white;
+    }
+
+    .div_bandeau img {
+        width: 25%;
+    }
+
+    .triple_colone .droite {
+        text-align: center;
+    }
+
+    .triple_colone {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .fin_section h2 {
+        font-size: 20px;
+    }
+
+    .fin_section p {
+        font-size: 10px;
+    }
+
+    .principale h2 {
+        font-size: 30px;
+    } 
+
+    .principale p {
+        font-size: 10px;
+    }
+
+    .div_mail_footer input { 
+        font-size: 15px;
+    }
+
+
+    .order_1 {
+        order: 1;
+    }
+
+    .droite {
+        order: 2;
+    }
+
+    .order_2 {
+        order: 3;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    header {
+        padding: 200px 0;
+    }
+
+    .div_header {
+        left: 0;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .text_header {
+        font-size: 50%;
+    }
+
+    .div_bandeau {
+        display: block;
+        margin-bottom: 25px;
+    }
+
+    .div_bandeau div {
+        width: 100%;
+    }
+
+    .div_bandeau img {
+        width: 25%;
+    }
+
+    .fin_section h2 {
+        font-size: 15px;
+    }
+
+    .fin_section p {
+        font-size: 5px;
+    }
+
+    .principale h2 {
+        font-size: 20px;
+    } 
+
+    .principale p {
+        font-size: 8px;
+    }
+
+    .div_mail_footer input { 
+        font-size: 10px;
+    }
+
 }
